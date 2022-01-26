@@ -1,4 +1,4 @@
-# F.I.C.C.T.-Proyecto_Seller_Web-Php_Js
+# F.I.C.C.T.-Proyecto_helpdesk_Web-Php_Js
 F.I.C.C.T. | Materia: Sistemas de Informacion II | Docente: Angelica Garzon Cuellar | Repositorio: HelpDesk, Mesa de Ayuda o Tickets con PHP,MySQL y JS (MVC) | Lenguaje: Php Js | IDE: VSCode
 
 <p align="center"><img src="https://user-images.githubusercontent.com/36086876/146686931-7454e35d-a44b-422f-84c6-c3645d235ad3.png" width="162"></p>
