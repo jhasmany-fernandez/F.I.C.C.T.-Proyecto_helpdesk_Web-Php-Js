@@ -21,7 +21,11 @@
         }
 
         public function ruta(){
-            return "http://localhost/github-xampp/F.I.C.C.T.-Proyecto_helpdesk_Web-Php-Js/";
+            //Local
+            //return "http://localhost/github-xampp/F.I.C.C.T.-Proyecto_helpdesk_Web-Php-Js/";
+            //Produccion
+            return "https://sistema-tickets-helpdesk.herokuapp.com/";
+
         }
     }
 ?>
