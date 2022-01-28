@@ -6,9 +6,9 @@
         protected function Conexion(){
             try {
                 //Local
-                //$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=helpdeskbd","root","");
+                $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=helpdeskbd","root","");
                 //Produccion
-                $conectar = $this->dbh = new PDO("mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_d73cf45d77aedf5","baccff5f422037","1193aa55");
+                //$conectar = $this->dbh = new PDO("mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_d73cf45d77aedf5","baccff5f422037","1193aa55");
                 return $conectar;
             } catch(Exception $e){
                 print "!Error BD!: " . $e->getMessage() . "<br/>";
@@ -22,9 +22,9 @@
 
         public function ruta(){
             //Local
-            //return "http://localhost/github-xampp/F.I.C.C.T.-Proyecto_helpdesk_Web-Php-Js/";
+            return "http://localhost/github-xampp/F.I.C.C.T.-Proyecto_helpdesk_Web-Php-Js/";
             //Produccion
-            return "https://sistema-tickets-helpdesk.herokuapp.com/";
+            //return "https://sistema-tickets-helpdesk.herokuapp.com/";
 
         }
     }

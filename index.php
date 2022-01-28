@@ -20,7 +20,7 @@
         document.oncontextmenu=deshabilitar
     </script>
 
-// conexion base de datos
+<!-- conexion base de datos -->
 <?php
     require_once("config/conexion.php");
     if(isset($_POST["enviar"]) and $_POST["enviar"]=="si");
@@ -44,7 +44,7 @@
 	<link href="public/img/favicon.ico" rel="shortcut icon">
 
     <!-- Favicon -->
-    <link rel="icon" href="public/img/favicon.ico">
+    <link rel="icon" href="public/img/favicon.png">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -66,6 +66,41 @@
                         <img src="public/img/avatar-sign.png" alt="">
                     </div>
                     <header class="sign-title">Inicia sesión</header>
+
+                    <?php //captura los errores desde el link del navegador
+                        if(isset($_GET["m"])){
+                            switch($_GET["m"]){
+                                case "1";
+                                    ?>
+                                        <div class="alert alert-danger " role="alert">
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                
+                                            </button>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <i class="icon ion-ios-checkmark alert-icon tx-32 mg-t-5 mg-xs-t-0"></i>
+                                                <span> El Usuario y/o Contraseña son incorrectos. </span>
+                                            </div>
+                                        </div>
+                                    <?php
+                                break;
+                                case "2";
+                                    ?>
+                                        <div class="alert alert-danger " role="alert">
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <i class="icon ion-ios-checkmark alert-icon tx-32 mg-t-5 mg-xs-t-0"></i>
+                                                <span> Los campos estan vacios. </span>
+                                            </div>
+                                            
+                                        </div>
+                                    <?php
+                            }
+                        }
+                    ?>
+
                     <div class="form-group">
                         <input type="text" id="usu_correo" name="usu_correo" class="form-control" placeholder="Correo electrónico"/>
                     </div>
