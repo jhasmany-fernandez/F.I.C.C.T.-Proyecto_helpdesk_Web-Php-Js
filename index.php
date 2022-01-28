@@ -1,3 +1,26 @@
+<script>
+        function disabletext(e){
+        return false
+        }
+        function reEnable(){
+        return true
+        }
+        document.onselectstart=new Function ("return false")
+        if (window.sidebar){
+        document.onmousedown=disabletext
+        document.onclick=reEnable
+        }
+      </script>
+      
+      <script language="JavaScript">
+        function deshabilitar(){
+        alert ("security team developers")
+        return false
+        }
+        document.oncontextmenu=deshabilitar
+    </script>
+
+// conexion base de datos
 <?php
     require_once("config/conexion.php");
     if(isset($_POST["enviar"]) and $_POST["enviar"]=="si");
