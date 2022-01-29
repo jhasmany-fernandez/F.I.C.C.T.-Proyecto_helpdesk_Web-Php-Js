@@ -28,7 +28,7 @@
 	                            
 	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-question-sign"></span>Ayuda</a>
 	                            <div class="dropdown-divider"></div>
-	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-log-out"></span>Cerrar sesión</a>
+	                            <a class="dropdown-item" href="../logout/logout.php"><span class="font-icon glyphicon glyphicon-log-out"></span>Cerrar sesión</a>
 	                        </div>
 	                    </div>
 	
@@ -37,19 +37,16 @@
 	
 	                <div class="mobile-menu-right-overlay"></div>
 
-	                <div class="site-header-collapsed">
-	                    <div class="site-header-collapsed-in">
+					<input type="hidden" id="user_idx" value="<?php echo $_SESSION["usu_id"] ?>"> <!-- ID del usuario-->
 
-	                        
-	                        
+	                <div class="dropdown dropdown-typical">
+						<a href="#" class="dropdown-toggle no-arr">
+							<span class="font-icon font-icon-user"></span>
+							<span class="lblcontactonomx"><?php echo $_SESSION["usu_nom"] ?> <?php echo $_SESSION["usu_ape"] ?></span>
+						</a>
+                	</div>
+
 	                       
-	
-	                       
-	                        
-	                        
-	                        
-	                    </div><!--.site-header-collapsed-in-->
-	                </div><!--.site-header-collapsed-->
 	            </div><!--site-header-content-in-->
 	        </div><!--.site-header-content-->
 	    </div><!--.container-fluid-->
