@@ -25,7 +25,7 @@
             //Local
 			//return "http://localhost/github-xampp/PERSONAL_HelpDesk/";
             //Produccion
-            return "https://sistema-tickets-helpdesk.herokuapp.com/index.php";
+            return "https://sistema-tickets-helpdesk.herokuapp.com/";
 		}
 
     }
