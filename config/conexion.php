@@ -24,7 +24,7 @@
             //Local
             //return "http://localhost/github-xampp/F.I.C.C.T.-Proyecto_helpdesk_Web-Php-Js/";
             //Produccion
-            return "https://sistema-tickets-helpdesk.herokuapp.com/";
+            return "https://sistema-tickets-helpdesk.herokuapp.com/index.php";
 
         }
     }
