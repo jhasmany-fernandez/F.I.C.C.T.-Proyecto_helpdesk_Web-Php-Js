@@ -1,7 +1,7 @@
 <nav class="side-menu">
     <ul class="side-menu-list">
         <li class="blue-dirty">
-            <a href="..\Home\">
+            <a href="..\home\">
                 <span class="glyphicon glyphicon-th"></span>
                 <span class="lbl">Inicio</span>
             </a>
