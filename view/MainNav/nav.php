@@ -23,5 +23,4 @@
 	        </li>
 	        
 	    </ul>
-	
-	</nav><!--.side-menu-->
+</nav><!--.side-menu-->
