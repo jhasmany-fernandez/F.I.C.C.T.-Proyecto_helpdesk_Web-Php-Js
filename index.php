@@ -30,18 +30,17 @@
 ?>
 <!DOCTYPE html>
 <html>
-<head lang="en">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>HelpDesk</>::Acceso</title>
-
-	<link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="144x144">
-	<link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="114x114">
-	<link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="72x72">
-	<link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png">
-	<link href="public/img/favicon.png" rel="icon" type="image/png">
-	<link href="public/img/favicon.ico" rel="shortcut icon">
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="144x144">
+    <link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="114x114">
+    <link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png" sizes="72x72">
+    <link href="public/img/favicon.png" rel="apple-touch-icon" type="image/png">
+    <link href="public/img/favicon.png" rel="icon" type="image/png">
+    <link href="public/img/favicon.ico" rel="shortcut icon">  
+    <title>HelpDesk</>::Acceso</title>
 
     <!-- Favicon -->
     <link rel="icon" href="public/img/favicon.png">
