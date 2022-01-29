@@ -9,7 +9,7 @@
                 //Local
 				//$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=andercode_helpdesk1","root","");
                 //Produccion
-                $conectar = $this->dbh = new PDO("mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_d73cf45d77aedf5","baccff5f422037","1193aa55");
+                $conectar = $this->dbh = new PDO("mysql:host=localhost;dbname=helpdesk","root","12345");
 				return $conectar;
 			} catch (Exception $e) {
 				print "¡Error BD!: " . $e->getMessage() . "<br/>";
@@ -25,7 +25,7 @@
             //Local
 			//return "http://localhost/github-xampp/PERSONAL_HelpDesk/";
             //Produccion
-            return "https://sistema-tickets-helpdesk.herokuapp.com/";
+            return "http://34.95.243.5/";
 		}
 
     }
